@@ -1,0 +1,17 @@
+<div class="app">
+    <h1 class="title">POKEDEX</h1>
+    <div class="parent">
+      <div class="grid">
+        <ng-container *ngFor="let pokemon of results">
+          <div class="card">
+            <img [src]='getUrl(pokemon)' alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>{{pokemon.name}}</b></h4>
+            </div>
+          </div>
+        </ng-container>
+      </div>  
+    </div>
+</div>
+  
+  

@@ -1,0 +1,8 @@
+.app {
+    text-align: center;
+}
+.conteiner {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
